@@ -5,11 +5,11 @@
 }
 
 
-img{
+img {
     max-width: 100%
 }
 
-.title{
+.title {
     text-align: center;
     width:100%;
     text-decoration-line: underline;
@@ -23,7 +23,7 @@ h4 {
 header {
    background-color:#000;
    text-align: center;
-   padding:5px 0 5px 0
+   padding:5px 0 5px 0;
 }
 
 header ul {
@@ -44,8 +44,8 @@ header li {
     color:#fff;
 }
 
-#AboutMe, #MyProjects,#Recommendations,#ContactMe{
-  margin-top:50px;
+#AboutMe, #MyProjects,#Recommendations,#ContactMe {
+    margin-top:30px;
 }
 
 #AboutMe {
@@ -78,6 +78,7 @@ header li {
     text-decoration-line: none;
     border-radius: 5px;
 }
+
 .selfIntro a:hover {
     background-color: darkblue;
 }
@@ -87,16 +88,19 @@ header li {
     margin:0 auto;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .projectItem {
     width:24%;
+    margin-bottom: 4vh;
     filter: grayscale(80%);
     border: 1px solid #000;
     border-radius:15px;
     position: relative;
+    margin:0 0 5px 0;
 }
+
 .projectItem img {
     width: 100%;
     border-radius:15px 15px 0 0;
@@ -170,12 +174,12 @@ header li {
 
 .imageList {
   position: relative;
-
 }
+
 .arrow {
   position: absolute;
   top:45%;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .arrow:hover {
@@ -207,7 +211,7 @@ header li {
   line-height: 1.5
 }
 
-.peopleWords p::first-letter{
+.peopleWords p::first-letter {
   font-size: 160%;
   font-weight: bolder;
   color:#000;
@@ -222,6 +226,16 @@ header li {
 
 footer {
   background-color:#000;
+  color:#fff;
+}
+
+.email {
+  text-align:center;
+}
+
+.email a {
+  text-decoration: none;
+  color:#fff;
 }
 
 .social-media {
@@ -237,4 +251,19 @@ footer {
   color:#fff;
   font-size: 2rem;
   background-color: #000;
+}
+
+.backToTop {
+  position: fixed;
+  bottom:15%;
+  right:2%;
+  font-size: 3rem;
+  color: black;
+  opacity: 0.6;
+  z-index: 10000;
+}
+
+.backToTop a {
+  text-decoration: none;
+  color:#000;
 }

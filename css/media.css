@@ -1,0 +1,66 @@
+@media only screen and (max-width: 835px) {
+     header li {
+        padding: 0 2% 0 2%;
+     }
+
+    .projectContainer {
+        justify-content: space-around;
+     }
+
+    .projectItem {
+        width:48%;
+     }
+
+    .arrow {
+        display: none;
+     }
+}
+
+@media only screen and (max-width: 711px) {
+      header li {
+        padding: 0 2% 0 2%;
+     }
+
+     .menu a {
+        font-size: 1.2rem;
+     }
+
+    .recommendationContainer {
+        width:100%;
+     }
+
+    .recomendationItem {
+       width:100%;
+     }
+}
+
+@media only screen and (max-width: 575px) {
+    .profile {
+       width:30%;
+     }
+
+    .selfIntro {
+       width:70%;
+       padding-left:0;
+     }
+    .projectItem {
+        width:100%;
+     }
+
+    header {
+        display: none;
+     }
+
+    #AboutMe, #MyProjects,#Recommendations,#ContactMe {
+        margin-top:10px;
+    }
+
+    .profile {
+        width:100%;
+    }
+
+    .selfIntro {
+        width:100%;
+        padding-left:10px;
+    }
+}
