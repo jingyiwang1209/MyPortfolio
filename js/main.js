@@ -3,7 +3,7 @@ var projects={
     image:['image/map.JPG','image/game.JPG','image/webOptim.JPG','image/test.JPG'],
     name:['Museum Tour Map','Arcade Game Clone','Web Optimization','Feed Reader Testing'],
     link:['https://github.com/jingyiwang1209/MuseumTourMap','https://github.com/jingyiwang1209/MuseumTourMap','https://github.com/jingyiwang1209/MuseumTourMap','https://github.com/jingyiwang1209/MuseumTourMap'],
-    description:['San Francisco museum tour map using APIs','Classic arcade game clone using HTML5 Canvas','Load pages faster', 'Feed read testing using Jasmine'],
+    description:['San Francisco museum tour map using APIs and framework','Classic arcade game clone using HTML5 Canvas','Load pages faster', 'Feed read testing using Jasmine'],
 };
 
 projects.display=function(){
