@@ -95,7 +95,7 @@ header li {
 .selfIntro a {
     padding:10px 35px 10px 10px;
     font-size: 1.3rem;
-    background: url('downloadIcon.png') right no-repeat;
+    background: url('downloadIcon.png') 98% no-repeat;
     text-decoration-line: none;
     border-radius: 5px;
     color: #000;
