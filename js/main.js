@@ -105,3 +105,14 @@ next.addEventListener('click',function(){
     globalProcess(globalIndex);
 });
 
+document.addEventListener('keyup',function(e){
+     if(e.keyCode==37){
+        globalIndex=globalIndex-1;
+        globalProcess(globalIndex);
+     }
+     if(e.keyCode==39){
+        globalIndex=globalIndex+1;
+        globalProcess(globalIndex);
+     }
+});
+
