@@ -159,7 +159,7 @@ header li {
 }
 
 .projectDescription a {
-    color: rgba(0,0,0,0.6);
+    color: #fff;
     font-weight: bolder;
     font-size: 2vw;
     display: inline-block;
@@ -167,7 +167,7 @@ header li {
 }
 
 .projectDescription a p {
-  line-height:1.5;
+    line-height:1.5;
 }
 
 .projectDescription {
@@ -178,118 +178,118 @@ header li {
 }
 
 .recomendationItem {
-  width:90%;
-  margin: 0 auto;
+    width:90%;
+    margin: 0 auto;
 }
 
 .peopleBio {
-  text-align:center;
+    text-align:center;
 }
 
 .peopleBio p {
-  padding-bottom:10px;
+    padding-bottom:10px;
 }
 
 .inactive {
-  border-radius: 100%;
-  filter: blur(2px);
+    border-radius: 100%;
+    filter: blur(2px);
 }
 
 .imageList {
-  position: relative;
+    position: relative;
 }
 
 .arrow {
-  position: absolute;
-  top:45%;
-  font-size: 2rem;
+    position: absolute;
+    top:45%;
+    font-size: 2rem;
 }
 
 
 .arrow:hover {
-  cursor: pointer;
-  padding:10px;
-  background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+    padding:10px;
+    background-color: rgba(0,0,0,0.6);
 }
 
 .prev {
- left:0;
+   left:0;
 }
 
 .next {
- right:0;
+   right:0;
 }
 
 .active {
-  transform: scale(1.4,1.4);
-  position: relative;
-  filter: blur(0);
-  z-index: 1000;
+    transform: scale(1.4,1.4);
+    position: relative;
+    filter: blur(0);
+    z-index: 1000;
 }
 
 .peopleWords {
- font-size: 1.2rem;
+   font-size: 1.2rem;
 }
 
 .peopleWords p {
-  margin:0;
-  padding-left:5px;
-  line-height: 1.5
+    margin:0;
+    padding-left:5px;
+    line-height: 1.5
 }
 
 .peopleWords p::first-letter {
-  font-size: 160%;
-  font-weight: bolder;
-  color:#000;
+    font-size: 160%;
+    font-weight: bolder;
+    color:#000;
 }
 
 .inlineText {
-  color:#000;
-  font-weight: bold;
-  font-size:1.5rem;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    color:#000;
+    font-weight: bold;
+    font-size:1.5rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
 }
 
 footer {
-  background-color:#000;
-  color:#fff;
+    background-color:#000;
+    color:#fff;
 }
 
 .email {
-  text-align:center;
+    text-align:center;
 }
 
 .email a {
-  text-decoration: none;
-  color:#fff;
+    text-decoration: none;
+    color:#fff;
 }
 
 .social-media {
-  text-align: center;
+    text-align: center;
 }
 
 .social-media a {
-  margin:0 5px;
+    margin:0 5px;
 }
 
 .social-media .fa {
-  padding:10px;
-  color:#fff;
-  font-size: 2rem;
-  background-color: #000;
+    padding:10px;
+    color:#fff;
+    font-size: 2rem;
+    background-color: #000;
 }
 
 .backToTop {
-  position: fixed;
-  bottom:15%;
-  right:2%;
-  font-size: 3rem;
-  color: black;
-  opacity: 0.6;
-  z-index: 10000;
+    position: fixed;
+    bottom:15%;
+    right:2%;
+    font-size: 3rem;
+    color: black;
+    opacity: 0.6;
+    z-index: 10000;
 }
 
 .backToTop a {
-  text-decoration: none;
-  color:#000;
+    text-decoration: none;
+    color:#000;
 }
