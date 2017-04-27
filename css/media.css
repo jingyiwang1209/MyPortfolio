@@ -62,7 +62,8 @@
 
 
     .selfIntro a {
-        width:260px;
+        width:230px;
+        text-align: center;
     }
      .projectDescription a {
         font-size: 6vw;
