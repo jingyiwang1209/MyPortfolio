@@ -43,6 +43,10 @@
         display: none;
      }
 
+    main, footer {
+    width:100%;
+    }
+
     #AboutMe, #MyProjects,#Recommendations,#ContactMe {
         margin-top:10px;
     }
@@ -56,6 +60,10 @@
         padding-left:10px;
     }
 
+
+    .selfIntro a {
+    width:300px;
+    }
      .projectDescription a {
         font-size: 6vw;
     }
