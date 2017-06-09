@@ -25,7 +25,6 @@ h4 {
 
 header {
    background-color:#000;
-   text-align: center;
    padding:5px 0 5px 0;
 }
 
@@ -33,11 +32,8 @@ header ul {
     list-style: none;
     padding: 0;
     margin: 0;
-}
-
-header li {
-    display: inline-block;
-    padding: 0 4% 0 4%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .menu a {
@@ -51,17 +47,35 @@ header li {
     margin-top:30px;
 }
 
+.title{
+    grid-area:t;
+}
+
+.profile{
+    grid-area:p;
+    text-align: center
+}
+
+.selfIntro{
+    grid-area:s;
+}
+
 #AboutMe {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    padding:0 5px 0 5px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-areas:
+    "t t t t"
+    "p s s s";
     position: relative;
 }
 
 .title,.profile,.selfIntro {
-  position: relative;
-  z-index: 1000;
+    position: relative;
+    z-index: 1000;
 }
+
+
 
 #AboutMe::before {
     content: "";
@@ -77,13 +91,7 @@ header li {
     opacity: 0.5;
 }
 
-.profile {
-    width:20%;
-    text-align: center;
-}
-
 .selfIntro {
-    width:65%;
     padding-left:10px;
 }
 
@@ -105,7 +113,6 @@ header li {
                 inset -1px -1px 4px rgba(0,0,0,0.3);
     display: block;
     width:200px;
-    line-height: 1
 }
 
 .selfIntro a:hover {
@@ -115,18 +122,15 @@ header li {
 
 .projectContainer {
     margin:0 auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:10px 10px;
 }
 
 .projectItem {
-    width:24%;
-    margin-bottom: 4vh;
     border: 1px solid #000;
     border-radius:15px;
     position: relative;
-    margin:0 0 5px 0;
 }
 
 .projectItem img {
