@@ -5,10 +5,6 @@
 }
 
 @media only screen and (max-width: 711px) {
-     .menu a {
-        font-size: 1.2rem;
-     }
-
     .recommendationContainer {
         width:100%;
      }
