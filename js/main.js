@@ -34,14 +34,14 @@ var projects = {
     "https://github.com/jingyiwang1209/news"
   ],
   description: [
-    "Coding book sharing website",
-    "Survey creating and feedback collecting website using React.JS, Express.JS, MongoDB",
-    "San Francisco and Bayarea Job Search",
-    "Museum tour map using knockout.js",
+    "Coding book sharing website using JQuery, Python Flask, PostgreSQL, AWS",
+    "Survey creating and feedback collecting website using React.JS, Express.JS, multiple APIs, MongoDB",
+    "San Francisco and Bayarea Job Search using React Native",
+    "Museum tour map using knockout.JS, Google APIs, Wiki APIs",
     "Classic arcade game clone using HTML5 Canvas",
     "Load pages faster",
     "Feed read testing using Jasmine",
-    "Movie Trailer Website",
+    "Movie Trailer Website using Python OOP",
     "Reporting tool using Psycopg2"
   ]
 };
