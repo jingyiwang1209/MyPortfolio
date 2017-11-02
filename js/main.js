@@ -35,7 +35,7 @@ var projects = {
   ],
   description: [
     "Coding book sharing website",
-    "Survey creating and feedback collecting website",
+    "Survey creating and feedback collecting website using React.JS, Express.JS, MongoDB",
     "San Francisco and Bayarea Job Search",
     "Museum tour map using knockout.js",
     "Classic arcade game clone using HTML5 Canvas",
