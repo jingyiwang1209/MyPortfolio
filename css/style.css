@@ -299,5 +299,14 @@ footer {
 }
 
 .featuredImg {
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+    box-shadow: 5px 5px 35px 0px rgba(46,61,73,0.4);
+    border-radius: 0.375rem;
+    transition: all 0.3s ease;
 }
+
+.featuredImg:hover {
+    box-shadow: 5px 5px 10px 0px rgba(46,61,73,0.4);
+}
+
+
+
