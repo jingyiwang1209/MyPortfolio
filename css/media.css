@@ -16,6 +16,13 @@
 
 @media only screen and (max-width: 598px) {
 
+    .projectItem {
+         border: 1px solid #000;
+         border-radius:15px;
+         position: relative;
+         box-shadow: none
+     }
+
     header {
         display: none;
      }
