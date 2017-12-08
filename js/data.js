@@ -1,4 +1,3 @@
-var globalIndex = 2;
 var projects = {
   image: [
     "image/lovecoding.png",
@@ -46,30 +45,6 @@ var projects = {
   ]
 };
 
-projects.display = function() {
-  var projectContainer = $(".projectContainer");
-  for (var i = 0; i < projects.image.length; i++) {
-    var imgSrc = projects.image[i];
-    var name = projects.name[i];
-    var href = projects.link[i];
-    var description = projects.description[i];
-    var innerHTML =
-      '<img class="projectImage" src=' +
-      imgSrc +
-      ' alt="project image"><p class="projectName">' +
-      name +
-      '</p><div class="projectDescription"><a target="_blank" href="' +
-      href +
-      '"><p>' +
-      description +
-      "</p></a></div>";
-    var projectItem = $('<div class="projectItem"></div>');
-    projectItem.append(innerHTML);
-    projectContainer.append(projectItem);
-  }
-};
-projects.display();
-
 var recommendations = {
   people: [
     {
@@ -112,58 +87,3 @@ var recommendations = {
     }
   ]
 };
-
-var peopleImage = document.querySelectorAll(".imageList img");
-var peopleTitle = document.querySelectorAll(".peopleBio p");
-var peopleWords = document.querySelectorAll(".peopleWords p");
-var prev = document.getElementsByClassName("prev")[0];
-var next = document.getElementsByClassName("next")[0];
-
-for (var i = 0; i < peopleImage.length; i++) {
-  peopleImage[i].index = i;
-  peopleImage[i].addEventListener("click", function() {
-    globalProcess(this.index);
-  });
-}
-
-function globalProcess(ind) {
-  for (var j = 0; j < peopleImage.length; j++) {
-    peopleImage[j].classList.remove("active");
-  }
-
-  if (ind < 0) {
-    ind = peopleImage.length - 1;
-  }
-
-  if (ind > peopleImage.length - 1) {
-    ind = 0;
-  }
-  peopleImage[ind].classList.add("active");
-  peopleTitle[0].innerHTML =
-    recommendations.people[ind].name +
-    "<br>" +
-    recommendations.people[ind].title;
-  peopleWords[0].innerHTML = recommendations.people[ind].say;
-  globalIndex = ind;
-}
-
-prev.addEventListener("click", function() {
-  globalIndex = globalIndex - 1;
-  globalProcess(globalIndex);
-});
-
-next.addEventListener("click", function() {
-  globalIndex = globalIndex + 1;
-  globalProcess(globalIndex);
-});
-
-document.addEventListener("keyup", function(e) {
-  if (e.keyCode == 37) {
-    globalIndex = globalIndex - 1;
-    globalProcess(globalIndex);
-  }
-  if (e.keyCode == 39) {
-    globalIndex = globalIndex + 1;
-    globalProcess(globalIndex);
-  }
-});
