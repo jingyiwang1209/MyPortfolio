@@ -1,13 +1,13 @@
 var projects = {
   image: [
-    "image/loganalysis.png",
-    "image/lovecoding.png",
-    "image/surveydog.png",
-    "image/map.JPG",
-    "image/game.JPG",
-    "image/webOptim.JPG",
-    "image/test.JPG",
-    "image/movie.png"
+    "image/project.png",
+    "image/project.png",
+    "image/project.png",
+    "image/project.png",
+    "image/project.png",
+    "image/project.png",
+    "image/project.png",
+    "image/project.png"
   ],
   name: [
     "Logs Analysis",

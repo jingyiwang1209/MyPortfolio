@@ -291,13 +291,14 @@ header ul {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 10px 10px;
+    grid-gap: 20px 20px;
 }
 
 .projectItem {
     box-shadow: 5px 5px 10px 0px rgba(46, 61, 73, 0.4);
     border-radius: 15px;
     position: relative;
+
 }
 
 .projectItem img {
@@ -308,7 +309,7 @@ header ul {
 .projectName {
     text-align: center;
     font-size: 1.5rem;
-    margin: 5px;
+    padding:0 2px;
 }
 
 .projectItem:hover.projectItem .projectDescription {
@@ -330,7 +331,7 @@ header ul {
 }
 
 .projectDescription a {
-    color: #fff;
+    color: #000;
     font-weight: bolder;
     font-size: 1.2rem;
     display: inline-block;
