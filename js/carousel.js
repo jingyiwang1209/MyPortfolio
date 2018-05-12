@@ -4,11 +4,10 @@ var Carousel = (function() {
   var peopleWords;
   var prev;
   var next;
-  var globalIndex;
+  var globalIndex=0;
 
   function loadPeople(ind) {
     // define default index to show the default person
-    globalIndex = 2;
 
     for (var j = 0; j < peopleImage.length; j++) {
       peopleImage[j].classList.remove("active");
@@ -21,6 +20,7 @@ var Carousel = (function() {
     if (ind > peopleImage.length - 1) {
       ind = 0;
     }
+
     peopleImage[ind].classList.add("active");
     peopleTitle[0].innerHTML =
       recommendations.people[ind].name +
@@ -39,15 +39,7 @@ var Carousel = (function() {
     }
   }
 
-  function goLeft() {
-    globalIndex = globalIndex - 1;
-    loadPeople(globalIndex);
-  }
 
-  function goRight() {
-    globalIndex = globalIndex + 1;
-    loadPeople(globalIndex);
-  }
 
   function OperateKeyBoard(e) {
     if (e.keyCode == 37) {
@@ -56,6 +48,7 @@ var Carousel = (function() {
     }
     if (e.keyCode == 39) {
       globalIndex = globalIndex + 1;
+
       loadPeople(globalIndex);
     }
   }
@@ -64,11 +57,6 @@ var Carousel = (function() {
     peopleImage = document.querySelectorAll(".imageList img");
     peopleTitle = document.querySelectorAll(".peopleBio p");
     peopleWords = document.querySelectorAll(".peopleWords p");
-    prev = document.getElementsByClassName("prev")[0];
-    next = document.getElementsByClassName("next")[0];
-
-    prev.addEventListener("click", goLeft);
-    next.addEventListener("click", goRight);
     document.addEventListener("keyup", OperateKeyBoard);
   }
 
