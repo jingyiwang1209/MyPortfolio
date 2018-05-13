@@ -24,7 +24,7 @@ img {
 .MyProjectsContainer {
     width: 90%;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
     /*    border:1px solid green;*/
 }
 
@@ -378,21 +378,29 @@ footer {
     color: #fff;
 }
 
-.email {
-    text-align: center;
+.contact {
+    margin-top: 10px
 }
 
-.email a {
+.contact a {
     text-decoration: none;
-    color: #fff;
+    color:#000;
 }
 
+.contact .fa {
+      font-size: 1.6rem;
+      color:#ffc014;
+}
+
+.email {
+    margin-right: 15px
+}
 .social-media {
     text-align: center;
 }
 
 .social-media a {
-    margin: 0 5px;
+    margin: 0 55px;
 }
 
 .social-media .fa {
