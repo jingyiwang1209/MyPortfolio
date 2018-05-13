@@ -21,7 +21,6 @@
 }
 
 @media only screen and (max-width: 629px) {
-
     .featuredProject {
         width: 100%;
     }
@@ -60,6 +59,8 @@
         box-shadow: none;
     }
     .utripPage {
-        display: none;
+        right: -10%;
+        top: 25%;
+        width: 20%;
     }
 }
