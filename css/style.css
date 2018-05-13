@@ -281,10 +281,11 @@ header ul {
     position: relative;
 }
 
-.projectItem img {
+.projectImage {
     width: 100%;
     border-radius: 15px 15px 0 0;
     height: 260px;
+    object-fit:cover
 }
 
 .projectName {
