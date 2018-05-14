@@ -45,7 +45,7 @@ var recommendations = {
   people: [
     {
       name: "Jacky Cao",
-      src: "keiko.jpg",
+      src: "jacky.jpg",
       title: "Devops Engineer / Utrip Project Team Lead",
       say:
         "Her <span class='inlineText'>calm</span>, <span class='inlineText'>patient</span> manner was a great help to me when my frustration was at an all-time high. Her knowledge of the translation and her <span class='inlineText'>remarkable problem-solving abilities</span> are very exceptional."
@@ -53,8 +53,8 @@ var recommendations = {
 
     {
       name: "Hejie Fan",
-      src: "ceo.jpg",
-      title: "Senior Product Engineer / Utrip Marketing Lead",
+      src: "hejie.jpg",
+      title: "Senior Product Engineer at Microsoft/ Utrip Marketing Lead",
       say:
         "I have been working with Jing on a startup project for about a year. Jing is in charge of the software for our project.  Jing has done phenomenal job not only in <span class='inlineText'>coding</span>, but also in <span class='inlineText'>user scenario simulation</span>, as well as marketing aspects. It has been a great pleasure working with Jing in the past year."
     },
