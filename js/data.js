@@ -59,13 +59,13 @@ var recommendations = {
         "I have been working with Jing on a startup project for about a year. Jing is in charge of the software for our project.  Jing has done phenomenal job not only in <span class='inlineText'>coding</span>, but also in <span class='inlineText'>user scenario simulation</span>, as well as marketing aspects. It has been a great pleasure working with Jing in the past year."
     },
 
-    {
-      name: "Sean Wang",
-      src: "prithvi.jpg",
-      title: "Senior Backend Engineer / Utrip Backend Engineer",
-      say:
-        "Jing is warm and witty, and most of all extremely knowledgeable. Jing can grasp ideas in a holistic manner and still <span class='inlineText'>pay attention to minor details</span>. As someone who is a <span class='inlineText'>creative thinker</span> and possesses a <span class='inlineText'>can-do attitude</span>, Jing is a <span class='inlineText'>pleasure to work with</span>."
-    },
+    // {
+    //   name: "Sean Wang",
+    //   src: "prithvi.jpg",
+    //   title: "Senior Backend Engineer / Utrip Backend Engineer",
+    //   say:
+    //     "Jing is warm and witty, and most of all extremely knowledgeable. Jing can grasp ideas in a holistic manner and still <span class='inlineText'>pay attention to minor details</span>. As someone who is a <span class='inlineText'>creative thinker</span> and possesses a <span class='inlineText'>can-do attitude</span>, Jing is a <span class='inlineText'>pleasure to work with</span>."
+    // },
 
     {
       name: "Homer Johnstone",
@@ -76,11 +76,11 @@ var recommendations = {
     },
 
     {
-      name: "Akmal Siddiqi",
-      src: "akmal.jpg",
-      title: "IT Project Manager",
+      name: "Prithvi Mattur",
+      src: "prithvi.jpg",
+      title: "Senior Analyst",
       say:
-        "Jingyi is an outstanding character and a talented professional. She is <span class='inlineText'>passionate</span>, <span class='inlineText'>self-starter</span>, and <span class='inlineText'>highly organized</span>. In addition, she is very adept at data analysis. I strongly recommend her for any organization that seeks her skills."
+       "Jing is warm and witty, and most of all extremely knowledgeable. Jing can grasp ideas in a holistic manner and still <span class='inlineText'>pay attention to minor details</span>. Jing has a well-deserved reputation as someone who is diligent and personable – two qualities that define her completely. I worked with Jing in more than two academic projects. As someone who is a <span class='inlineText'>creative thinker</span> and possesses a <span class='inlineText'>can-do attitude</span>, Jing is a <span class='inlineText'>pleasure to work with</span>. I recommend her highly for any project management position for any organization that chooses to take benefit from her diverse skills."
     }
   ]
 };
