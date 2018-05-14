@@ -54,9 +54,9 @@ var recommendations = {
     {
       name: "Hejie Fan",
       src: "ceo.jpg",
-      title: "Senior Project Manager / Utrip Marketing Lead",
+      title: "Senior Product Engineer / Utrip Marketing Lead",
       say:
-        "She is a very capable tri-lingual who conducts Japanese and English at business level together with her native Chinese language. She is a <span class='inlineText'>hard worker</span> and a <span class='inlineText'>capable project manager</span> for our localization/translation projects. <span class='inlineText'>Good teamworker</span>."
+        "I have been working with Jing on a startup project for about a year. Jing is in charge of the software for our project.  Jing has done phenomenal job not only in <span class='inlineText'>coding</span>, but also in <span class='inlineText'>user scenario simulation</span>, as well as marketing aspects. It has been a great pleasure working with Jing in the past year."
     },
 
     {
