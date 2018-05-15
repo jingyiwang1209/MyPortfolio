@@ -48,7 +48,7 @@ var recommendations = {
       src: "jacky.jpg",
       title: "Devops Engineer / Utrip Project Team Lead",
       say:
-        "Her <span class='inlineText'>calm</span>, <span class='inlineText'>patient</span> manner was a great help to me when my frustration was at an all-time high. Her knowledge of the translation and her <span class='inlineText'>remarkable problem-solving abilities</span> are very exceptional."
+        "I have been working with Jing in a start up project. Jing has always been a <span class='inlineText'>self-starter</span>, a <span class='inlineText'>collaborative developer</span>. She can learn things and apply the knowledge she learns in the project very fast. She also actively discusses business logics and technical challenges during our meetings. It is a great pleasure to work with her."
     },
 
     {
