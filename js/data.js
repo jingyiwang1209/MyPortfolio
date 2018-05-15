@@ -59,13 +59,13 @@ var recommendations = {
         "I have been working with Jing on a startup project for about a year. Jing is in charge of the software for our project.  Jing has done phenomenal job not only in <span class='inlineText'>coding</span>, but also in <span class='inlineText'>user scenario simulation</span>, as well as marketing aspects. It has been a great pleasure working with Jing in the past year."
     },
 
-    // {
-    //   name: "Sean Wang",
-    //   src: "prithvi.jpg",
-    //   title: "Senior Backend Engineer / Utrip Backend Engineer",
-    //   say:
-    //     "Jing is warm and witty, and most of all extremely knowledgeable. Jing can grasp ideas in a holistic manner and still <span class='inlineText'>pay attention to minor details</span>. As someone who is a <span class='inlineText'>creative thinker</span> and possesses a <span class='inlineText'>can-do attitude</span>, Jing is a <span class='inlineText'>pleasure to work with</span>."
-    // },
+    {
+      name: "Sean Wang",
+      src: "sean.jpg",
+      title: "Senior Backend Engineer / Utrip Backend Engineer",
+      say:
+        "Jing has worked very hard on current project, and she is very <span class='inlineText'>self driven and motivated</span> in her work. She is always <span class='inlineText'>willing to learn new technology</span> and trying to apply them into the project. She is a great asset to the team, and I'm very glad to work with her."
+    },
 
     {
       name: "Homer Johnstone",
